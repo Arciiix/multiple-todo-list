@@ -11,6 +11,9 @@ The purpose is to compare the different aproaches to create such a simple applic
 - State managment
 - Styling (how easy it is to create custom css styles) + usage of the out-of-box UI libraries (Material based)
 - Performance
+- Routing
+- Real-time data (sockets)
+- Lazy loading
 
 ## Back-end
 
@@ -21,6 +24,7 @@ The purpose is to compare the different aproaches to create such a simple applic
 - Amount of boilerplate code
 - Time taken to write specific part of code
 - Complexity
+- WebSockets
 
 # Technologies used
 

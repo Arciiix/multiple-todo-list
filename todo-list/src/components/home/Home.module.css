@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px 0px;
+}
+
+.task * {
+  margin: 2px;
+}
+
+.taskDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+  flex: 1;
+}
+.taskTitle {
+  font-size: 2em;
+}
+.taskDetails {
+  font-size: 1em;
+}
+
+.taskInput {
+  margin: 5px !important;
+  width: 100%;
+}
+
+.fab {
+  position: fixed !important;
+  right: 5px;
+  bottom: 5px;
+}
+
+.dialogContent {
+  overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .task {
+    width: 90%;
+  }
+}
