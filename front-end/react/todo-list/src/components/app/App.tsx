@@ -4,7 +4,7 @@ import { useRecoilState } from "recoil";
 import isLoggedState from "../../state/isLogged.state";
 import tasksState from "../../state/tasks.state";
 import Home from "../home/Home";
-import Loading from "../Loading/Loading";
+import Loading from "../loading/Loading";
 import Login from "../login/Login";
 import Register from "../register/Register";
 import "./App.css";
